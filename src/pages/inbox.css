@@ -1,0 +1,196 @@
+.InboxBody {
+    height: 100%;
+}
+
+.InboxHeader {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    color: #9c9b9f;
+}
+
+.InboxHeaderLeft, .InboxHeaderRight {
+    width: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+
+.InboxHeaderLeft > *, .InboxHeaderRight > * {
+    height: 60%;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.InboxHeaderCenter {
+    width: calc(100% - 140px - 10px);
+    display: flex;
+    justify-content: left;
+    vertical-align: middle;
+    margin-left: 10px; 
+    align-items: center;
+}
+
+.ProfilePicture {
+    position: relative;
+}
+
+.ProfilePicture img {
+    height: 40px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.OnlineDot {
+    height: 12px;
+    width: 12px;
+    background-color: #04e072;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.ProfileDetails {
+    margin-left: 10px;
+}
+
+.ProfileName {
+    color: white;
+}
+
+.ProfileDistance {
+
+}
+
+.InboxContent {
+    height: calc(100% - 70px - 130px - 20px);
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.InboxContent > div {
+    width: 100%;
+    overflow: auto;
+}
+
+.MessageBox {
+    margin: 8px;
+}
+
+.MessageBoxThis > div {
+    text-align: right;
+}
+
+.MessageBoxOther > div {
+    text-align: left;
+}
+
+.MessageText {
+    padding: 15px 20px;
+    font-size: 1.1em;
+    display: inline-block;
+    width: fit-content;
+    font-weight: 500;
+    max-width: 70%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.MessageTextThis {
+    background-color: #ffcb1d;
+    border-radius: 5px 5px 0px 5px;
+}
+
+.MessageTextOther {
+    background-color: #64cffd;
+    border-radius: 5px 5px 5px 0px;
+}
+
+.MessageTilde {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    vertical-align: bottom;
+}
+
+.TildeLeft {
+    background: linear-gradient(to bottom right, #fff0 0%, #fff0 50%, #64cffd 50%, #64cffd 100%);
+}
+
+.TildeRight {
+    background: linear-gradient(to bottom left, #fff0 0%, #fff0 50%, #ffcb1d 50%, #ffcb1d 100%);
+}
+
+.MessageTime {
+    color: #9c9b9f;
+    font-size: 0.8em;
+    margin: 5px;
+}
+
+.InboxFooter {
+    height: 130px;
+}
+
+.FooterTop {
+    height: 70px;
+}
+
+.FooterTop > div {
+    height: 100%;
+    background-color: #303032;
+    margin: 0px 10px;
+    padding: 0px 30px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.FooterTop textarea {
+    background-color: #303032;
+    border: none;
+    color: #9c9b9f;
+    padding: 0px;
+    resize: none;
+    width: calc(100vw - 20px - 60px - 34px);
+    font: inherit;
+    font-family: inherit;
+    font-size: 1.1em;
+}
+
+.FooterTop textarea:focus {
+    outline: none;
+}
+
+.FooterTop img {
+    height: 34px;
+    vertical-align: middle;
+}
+
+/* change caret color */
+textarea[type=text]:focus {
+    caret-color: #ffcb1d;
+    color: #9c9b9f;
+}
+
+.FooterBottom {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    padding: 0px 35px;
+}
+
+.FooterBottom img {
+    height: 35px;
+    vertical-align: middle;
+    margin: auto;
+}
