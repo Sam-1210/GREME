@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/GREME/static/css/main.0f4f785f.css",
-    "main.js": "/GREME/static/js/main.af920fd5.js",
+    "main.js": "/GREME/static/js/main.9d784d20.js",
     "index.html": "/GREME/index.html",
     "main.0f4f785f.css.map": "/GREME/static/css/main.0f4f785f.css.map",
-    "main.af920fd5.js.map": "/GREME/static/js/main.af920fd5.js.map"
+    "main.9d784d20.js.map": "/GREME/static/js/main.9d784d20.js.map"
   },
   "entrypoints": [
     "static/css/main.0f4f785f.css",
-    "static/js/main.af920fd5.js"
+    "static/js/main.9d784d20.js"
   ]
 }
